@@ -46,6 +46,6 @@ async function getProfilePlacements(id, profile_group_id){
 }
 
 // test
-// getProfileGroups();
-getProfiles("qDaFAA");
+getProfileGroups();
+// getProfiles("qDaFAA");
 // getProfilePlacements("RYvUjp", "qDaFAA");

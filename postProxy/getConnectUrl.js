@@ -12,7 +12,7 @@ async function initializeConnection(groupId) {
         },
         body: JSON.stringify({
           platform: "facebook",
-          redirect_url: "https://myapp.com/oauth/callback",
+          redirect_url: "https://docs.postiz.com/public-api/integrations/connect",
         }),
       }
     );
@@ -35,4 +35,5 @@ async function initializeConnection(groupId) {
 }
 
 // Example usage
-initializeConnection("qDaFAA");
+// initializeConnection("qDaFAA");
+initializeConnection("0lFBmM");
